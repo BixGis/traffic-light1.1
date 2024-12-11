@@ -12,3 +12,14 @@ article section{
     margin: auto;
     border-radius: 50%;
 }
+.button,
+input[type="button"] {
+    padding: 2px 2px;
+    font-size: 16px;
+    text-decoration: none;
+    color: white;
+    background-color: #4CAF50; 
+    border-radius: 5px; 
+    border: none; 
+    cursor: pointer; 
+}
