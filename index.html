@@ -5,8 +5,25 @@
     <meta name ="viewport" content="width=device-width, init">
     <title>Semaforo</title>
     <link rel="stylesheet" href="./semaforo.css">
+    <style>
+        body {
+            text-align: center;
+            margin: 0;
+            padding: 20px;
+
+            background: linear-gradient(120deg, #232222, #e9edef, #4e6c8b); 
+            margin: 0;
+            font-family: Arial, sans-serif;
+            height: 100vh;
+        }
+        article {
+            margin: 0 auto;
+
+        }
+    </style>
 </head>
 <body>
+    
     <article> 
         <section id="luzroja"></section>
         <section id="luzamarilla"></section>
@@ -20,6 +37,7 @@
         <option value="3">Verde</option>
 
     </select>
+    
     <input type="button" value="Cambiar" onclick="cambiar()">
 
     <script>
