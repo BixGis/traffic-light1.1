@@ -7,9 +7,54 @@
     <link rel="stylesheet" href="./semaforo.css">
 </head>
 <body>
+    <article> 
+        <section id="luzroja"></section>
+        <section id="luzamarilla"></section>
+        <section id="luzverde"></section>
+    
+         
+    </article> <br>
+    <select name ="" id="colores">
+        <option value="1">Rojo</option>
+        <option value="2">Amarillo</option>
+        <option value="3">Verde</option>
+
+    </select>
+    <input type="button" value="Cambiar" onclick="cambiar()">
+
+    <script>
+        function cambiar() {
+            let colores = document.getElementById("colores").value;
+
+            if (colores == 1){
+                document.getElementById("luzroja").style.backgroundColor = "red"
+                document.getElementById("luzamarilla").style.backgroundColor = "black"
+                document.getElementById("luzverde").style.backgroundColor = "black"
+            }else{
+                if(colores == 2){
+                    document.getElementById("luzroja").style.backgroundColor = "black"
+                    document.getElementById("luzamarilla").style.backgroundColor = "yellow"
+                    document.getElementById("luzverde").style.backgroundColor = "black"
+            }else{
+                    document.getElementById("luzroja").style.backgroundColor = "black"
+                    document.getElementById("luzamarilla").style.backgroundColor = "black"
+                    document.getElementById("luzverde").style.backgroundColor = "green"
+                }
+
+
+            }
+
+        }
+
+
+
+
+    </script>
+
 
 
 </body>
+
 
 
 

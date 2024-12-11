@@ -1,0 +1,14 @@
+article {
+    width: 150px; height: 250px; 
+    background-color: black;
+    margin: auto;
+
+}
+article section{
+    border-style: solid;
+    border-color: gray;
+    width: 85%; height: 83px;
+    box-sizing: border-box;
+    margin: auto;
+    border-radius: 50%;
+}
